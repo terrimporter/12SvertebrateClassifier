@@ -55,9 +55,9 @@ Superkingdom | 0 | 0 | 0 | 0 | 0
 Kingdom | 0 | 0 | 0 | 0 | 0
 Phylum | 0 | 0 | 0 | 0 | 0
 Class | 0 | 0 | 0 | 0 | 0
-Order | 0 | 0 | 0 | 0 | ... 
-Family | 0 | 0 | 0 | 0 | ... 
-Genus | 0 | 0 | 0 | 20 | ... 
+Order | 0 | 0 | 0 | 0 | 0 
+Family | 0 | 0 | 0 | 0 | 10 
+Genus | 0 | 0 | 0 | 20 | 30 
 Species * | 95 | 90 | 90 | 95 | NA 
 
 NA = No cutoff available will result in 95% correct assignments
@@ -70,10 +70,10 @@ Superkingdom | 0 | 0 | 0 | 0 | 0
 Kingdom | 0 | 0 | 0 | 0 | 0
 Phylum | 0 | 0 | 0 | 0 | 0
 Class | 0 | 0 | 0 | 0 | 0
-Order | 0 | 0 | 0 | 0 | ... 
-Family | 0 | 0 | 0 | 0 | ... 
-Genus | 0 | 0 | 0 | 0 | ... 
-Species * | 20 | 40 | 50 | 50 | NA  
+Order | 0 | 0 | 0 | 0 | 0 
+Family | 0 | 0 | 0 | 0 | 0 
+Genus | 0 | 0 | 0 | 0 | 0 
+Species * | 20 | 40 | 50 | 50 | 70  
 
 NA = No cutoff available will result in 90% correct assignments
 
