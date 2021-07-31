@@ -28,7 +28,11 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.13/dist/classifier.jar classify -t /p
 
 ### 12S Vertebrate v1.0.0
 
-Created from the NCBI nucleotide database [accessed July 26, 2020].  This version contains 16,801 reference sequences and 11,633 taxa at all ranks, including 7,277 species.
+These files are ready to be used with the RDP Classifier.  Created from the NCBI nucleotide database [accessed July 26, 2020].  This version contains 16,801 reference sequences and 11,633 taxa at all ranks, including 7,277 species.
+
+### 12S Vertebrate v1.0.0-ref
+
+These files were used to train the RDP Classifier.  Provided here for reference only.  Includes a FASTA file and a taxonomy file.
 
 **Taxonomic assignment results should be filtered according to their bootstrap support values to reduce false positive assignments.**  Cutoffs are based on leave-one-sequence-out testing of non-singleton species. Here we recommend MINIMUM bootstrap cutoffs according to query length and assignment rank.  Assuming your query sequences are represented in the reference set, using the cutoffs presented in the first table below should ensure 99% accuracy.  If you wish to cast a wider net, you can use the second tables below for 95% or 90% accuracy.
 
