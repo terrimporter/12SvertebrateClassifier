@@ -1,4 +1,6 @@
-# Introduction
+# 12S Vertebrate Reference Set For The RDP Classifier 
+
+[![DOI](https://zenodo.org/badge/12SvertebrateClassifier.svg)](https://zenodo.org/badge/latestdoi/12SvertebrateClassifier)
 
 This repository contains trained reference sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign vertebrate 12S mitochondrial gene sequences.  The latest releases can be downloaded from https://github.com/terrimporter/12SvertebrateClassifier/releases
 
