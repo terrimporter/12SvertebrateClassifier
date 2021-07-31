@@ -10,10 +10,10 @@ This classifier is suitable for classifying vertebrate 12S mitochondrial gene se
 
 ## How to cite
 
-You can cite this repository directly:
+You can cite this repository directly:  
 Teresita M. Porter. (2021). terrimporter/12SvertebrateClassifier: 12S Vertebrate Classifier v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.5150728  
 
-If you use this reference set with the RDP classifier please also cite the naive Bayesian classification tool:
+If you use this reference set with the RDP classifier please also cite the naive Bayesian classification tool:  
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy. Applied and Environmental Microbiology, 73: 5261.
 
 ## How to use
