@@ -39,10 +39,10 @@ Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
 Superkingdom | 0 | 0 | 0 | 0 | 0
 Kingdom | 0 | 0 | 0 | 0 | 0
 Phylum | 0 | 0 | 0 | 0 | 0
-Class | 0 | 0 | 0 | 0 | 0 
-Order | 20 | 20 | 30 | 30 | ... 
-Family | 50 | 40 | 50 | 50 | ... 
-Genus | 95 | 90 | 90 | 90 | ... 
+Class | 0 | 0 | 0 | 0 | 20 
+Order | 20 | 20 | 30 | 30 | 30 
+Family | 50 | 40 | 50 | 50 | 50 
+Genus | 95 | 90 | 90 | 90 | 90 
 Species * | NA | NA | NA | NA | NA 
 
 NA = No cutoff available will result in 99% correct assignments
