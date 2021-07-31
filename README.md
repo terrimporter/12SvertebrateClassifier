@@ -79,8 +79,6 @@ Family | 0 | 0 | 0 | 0 | 0
 Genus | 0 | 0 | 0 | 0 | 0 
 Species * | 20 | 40 | 50 | 50 | 70  
 
-NA = No cutoff available will result in 90% correct assignments
-
 # References
 
 Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Classifier for Rapid Assignment of rRNA Sequences into the New Bacterial Taxonomy. Applied and Environmental Microbiology, 73(16), 5261–5267. Available from https://sourceforge.net/projects/rdp-classifier/
