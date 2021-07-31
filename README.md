@@ -26,7 +26,7 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.13/dist/classifier.jar classify -t /p
 
 # Releases
 
-### 12S veertebrate v1.0
+### 12S Vertebrate v1.0
 
 Created from the NCBI nucleotide database [accessed July 26, 2020].  This version contains 16,801 reference sequences and 11,633 taxa at all ranks, including 7,277 species.
 
