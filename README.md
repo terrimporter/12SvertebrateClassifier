@@ -75,7 +75,8 @@ Class | 0 | 0 | 0 | 0 | 0
 Order | 0 | 0 | 0 | 0 | ... 
 Family | 0 | 0 | 0 | 0 | ... 
 Genus | 0 | 0 | 0 | 0 | ... 
-Species * | 20 | 40 | 50 | 50 | NA
+Species * | 20 | 40 | 50 | 50 | NA  
+
 NA = No cutoff available will result in 90% correct assignments
 
 # References
