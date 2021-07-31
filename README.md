@@ -1,6 +1,6 @@
 # 12S Vertebrate Reference Set For The RDP Classifier 
 
-[![DOI](https://zenodo.org/badge/12SvertebrateClassifier.svg)](https://zenodo.org/badge/latestdoi/12SvertebrateClassifier)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5150728.svg)](https://doi.org/10.5281/zenodo.5150728)  
 
 This repository contains trained reference sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign vertebrate 12S mitochondrial gene sequences.  The latest releases can be downloaded from https://github.com/terrimporter/12SvertebrateClassifier/releases
 
@@ -46,6 +46,7 @@ Order | 20 | 20 | 30 | 30 | ...
 Family | 50 | 40 | 50 | 50 | ... 
 Genus | 95 | 90 | 90 | 90 | ... 
 Species * | NA | NA | NA | NA | NA 
+
 NA = No cutoff available will result in 99% correct assignments
 
 #### Bootstrap support cutoffs, 95% accuracy:
@@ -60,6 +61,7 @@ Order | 0 | 0 | 0 | 0 | ...
 Family | 0 | 0 | 0 | 0 | ... 
 Genus | 0 | 0 | 0 | 20 | ... 
 Species * | 95 | 90 | 90 | 95 | NA 
+
 NA = No cutoff available will result in 95% correct assignments
 
 #### Bootstrap support cutoffs, 90% accuracy:
