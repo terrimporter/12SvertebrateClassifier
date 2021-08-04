@@ -11,6 +11,9 @@ This classifier is suitable for classifying vertebrate 12S mitochondrial gene se
 You can cite this repository directly:  
 Teresita M. Porter. (2021). terrimporter/12SvertebrateClassifier: 12S Vertebrate Classifier v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.5150728  
 
+If you use a version of the classifier that contains sequences from MitoFish please also cite:
+Sato, Y., Miya, M., Fukunaga, T., Sado, T., Iwasaki, W., Kumar, S. (2018) MitoFish and MiFish Pipeline: A mitochondrial genome database of fish with an analysis pipeline for environmental DNA metabarcoding. Molecular Biology and Evolution, 35: 1553.
+
 If you use this reference set with the RDP classifier please also cite the naive Bayesian classification tool:  
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy. Applied and Environmental Microbiology, 73: 5261.
 
@@ -26,11 +29,62 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.13/dist/classifier.jar classify -t /p
 
 # Releases
 
-### 12S Vertebrate v1.0.0
+### v2.0.0
+
+These files are ready to be used with the RDP Classifier.  Created from the NCBI nucleotide database [accessed July 26, 2020].  Added additional 12S sequences from the 12S fish classifier available from https://github.com/terrimporter/12SfishClassifier that includes sequences from MitoFish [March 2020].  This version contains 19,654 reference sequences and 15,007 taxa at all ranks, including 9,564 species.
+
+### v2.0.0-ref
+
+These files were used to train the RDP Classifier.  Provided here for reference only.  Includes a FASTA file and a taxonomy file.
+
+#### Bootstrap support cutoffs, 99% accuracy:
+
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
+--- |:---:|:---:|:---:|:---:|:---:
+Superkingdom | 0 | 0 | 0 | 0 | 0
+Kingdom | 0 | 0 | 0 | 0 | 0
+Phylum | 0 | 0 | 0 | 0 | 0
+Class | 0 | 0 | 0 | 0 | 20 
+Order | 10 | 20 | 30 | 30 | 40 
+Family | 50 | 50 | 50 | 50 | 50 
+Genus | NA | NA | NA | NA | 95 
+Species * | NA | NA | NA | NA | NA 
+
+NA = No cutoff available will result in 99% correct assignments
+
+#### Bootstrap support cutoffs, 95% accuracy:
+
+Rank | Full | 400 bp | 300 bp | 200 bp | 100 bp
+--- |:---:|:---:|:---:|:---:|:---:
+Superkingdom | 0 | 0 | 0 | 0 | 0
+Kingdom | 0 | 0 | 0 | 0 | 0
+Phylum | 0 | 0 | 0 | 0 | 0
+Class | 0 | 0 | 0 | 0 | 0
+Order | 0 | 0 | 0 | 0 | 0 
+Family | 0 | 0 | 0 | 0 | 10 
+Genus | 30 | 40 | 40 | 40 | 50 
+Species * | NA | NA | 95 | 95 | NA 
+
+NA = No cutoff available will result in 95% correct assignments
+
+#### Bootstrap support cutoffs, 90% accuracy:
+
+Rank | Full | 400 bp | 300 bp | 200 bp | 100 bp
+--- |:---:|:---:|:---:|:---:|:---:
+Superkingdom | 0 | 0 | 0 | 0 | 0
+Kingdom | 0 | 0 | 0 | 0 | 0
+Phylum | 0 | 0 | 0 | 0 | 0
+Class | 0 | 0 | 0 | 0 | 0
+Order | 0 | 0 | 0 | 0 | 0 
+Family | 0 | 0 | 0 | 0 | 0 
+Genus | 0 | 0 | 0 | 0 | 20 
+Species * | 60 | 60 | 60 | 60 | 80  
+
+### v1.0.0
 
 These files are ready to be used with the RDP Classifier.  Created from the NCBI nucleotide database [accessed July 26, 2020].  This version contains 16,801 reference sequences and 11,633 taxa at all ranks, including 7,277 species.
 
-### 12S Vertebrate v1.0.0-ref
+### v1.0.0-ref
 
 These files were used to train the RDP Classifier.  Provided here for reference only.  Includes a FASTA file and a taxonomy file.
 
@@ -79,9 +133,9 @@ Family | 0 | 0 | 0 | 0 | 0
 Genus | 0 | 0 | 0 | 0 | 0 
 Species * | 20 | 40 | 50 | 50 | 70  
 
-NA = No cutoff available will result in 90% correct assignments
-
 # References
+
+Sato, Y., Miya, M., Fukunaga, T., Sado, T., Iwasaki, W., Kumar, S. (2018) MitoFish and MiFish Pipeline: A mitochondrial genome database of fish with an analysis pipeline for environmental DNA metabarcoding. Molecular Biology and Evolution, 35: 1553.
 
 Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Classifier for Rapid Assignment of rRNA Sequences into the New Bacterial Taxonomy. Applied and Environmental Microbiology, 73(16), 5261–5267. Available from https://sourceforge.net/projects/rdp-classifier/
 
