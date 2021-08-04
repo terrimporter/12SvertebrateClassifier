@@ -4,7 +4,7 @@
 
 This repository contains trained reference sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign vertebrate 12S mitochondrial gene sequences.  The latest releases can be downloaded from https://github.com/terrimporter/12SvertebrateClassifier/releases
 
-This classifier is suitable for classifying vertebrate 12S mitochondrial gene sequences to species rank.  Reference sequences were obtained from the NCBI nucleotide [accessed July 2021].  Taxonomy is based on the NCBI taxonomy database.
+This classifier is suitable for classifying vertebrate 12S mitochondrial gene sequences to species rank.  Reference sequences were obtained from the NCBI nucleotide [accessed July 2021] and MitoFish [accessed March 2020].  Taxonomy is based on the NCBI taxonomy database.
 
 ## How to cite
 
