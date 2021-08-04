@@ -31,7 +31,7 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.13/dist/classifier.jar classify -t /p
 
 ### v2.0.0
 
-These files are ready to be used with the RDP Classifier.  Created from the NCBI nucleotide database [accessed July 26, 2020].  Added additional 12S sequences from the 12S fish classifier available from https://github.com/terrimporter/12SfishClassifier that includes sequences from MitoFish [March 2020].  This version contains 19,654 reference sequences and 15,007 taxa at all ranks, including 9,564 species.
+These files are ready to be used with the RDP Classifier.  Created from the NCBI nucleotide database [accessed July 26, 2020].  Added additional 12S sequences from the 12S fish classifier available from https://github.com/terrimporter/12SfishClassifier that includes sequences from MitoFish [March 2020].  This version contains 19,654 reference sequences and 15,007 taxa at all ranks, including 9,564 species.  This version of the classifier is recommended if there is a needed emphasis on fish, otherwise v1.0.0 classification performance is slightly better with lower bootstrap support cutoffs needed to ensure accuracy.
 
 ### v2.0.0-ref
 
@@ -143,4 +143,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: July 31, 2020
+Last updated: August 3, 2021
