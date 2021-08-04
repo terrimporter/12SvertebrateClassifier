@@ -107,7 +107,7 @@ NA = No cutoff available will result in 99% correct assignments
 
 #### Bootstrap support cutoffs, 95% accuracy:
 
-Rank | Full | 400 bp | 300 bp | 200 bp | 100 bp
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
 --- |:---:|:---:|:---:|:---:|:---:
 Superkingdom | 0 | 0 | 0 | 0 | 0
 Kingdom | 0 | 0 | 0 | 0 | 0
@@ -122,7 +122,7 @@ NA = No cutoff available will result in 95% correct assignments
 
 #### Bootstrap support cutoffs, 90% accuracy:
 
-Rank | Full | 400 bp | 300 bp | 200 bp | 100 bp
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
 --- |:---:|:---:|:---:|:---:|:---:
 Superkingdom | 0 | 0 | 0 | 0 | 0
 Kingdom | 0 | 0 | 0 | 0 | 0
