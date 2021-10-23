@@ -9,7 +9,7 @@ This classifier is suitable for classifying vertebrate 12S mitochondrial gene se
 ## How to cite
 
 You can cite this repository directly:  
-Teresita M. Porter. (2021). terrimporter/12SvertebrateClassifier: 12S Vertebrate Classifier v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.5150728  
+Teresita M. Porter. (2021). terrimporter/12SvertebrateClassifier: 12S Vertebrate Classifier v2.0.0. Zenodo. https://doi.org/10.5281/zenodo.5150728  
 
 If you use a version of the classifier that contains sequences from MitoFish please also cite:
 Sato, Y., Miya, M., Fukunaga, T., Sado, T., Iwasaki, W., Kumar, S. (2018) MitoFish and MiFish Pipeline: A mitochondrial genome database of fish with an analysis pipeline for environmental DNA metabarcoding. Molecular Biology and Evolution, 35: 1553.
