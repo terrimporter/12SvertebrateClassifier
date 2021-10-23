@@ -1,6 +1,6 @@
 # 12S Vertebrate Reference Set For The RDP Classifier 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5150728.svg)](https://doi.org/10.5281/zenodo.5150728)  
+[![DOI](https://zenodo.org/badge/391459819.svg)](https://zenodo.org/badge/latestdoi/391459819)  
 
 This repository contains trained reference sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign vertebrate 12S mitochondrial gene sequences.  The latest releases can be downloaded from https://github.com/terrimporter/12SvertebrateClassifier/releases
 
@@ -9,7 +9,7 @@ This classifier is suitable for classifying vertebrate 12S mitochondrial gene se
 ## How to cite
 
 You can cite this repository directly:  
-Teresita M. Porter. (2021). terrimporter/12SvertebrateClassifier: 12S Vertebrate Classifier v2.0.0. Zenodo. https://doi.org/10.5281/zenodo.5150728  
+Teresita M. Porter. (2021). terrimporter/12SvertebrateClassifier: 12S Vertebrate Classifier v2.0.0. Zenodo. https://zenodo.org/badge/latestdoi/391459819   
 
 If you use a version of the classifier that contains sequences from MitoFish please also cite:
 Sato, Y., Miya, M., Fukunaga, T., Sado, T., Iwasaki, W., Kumar, S. (2018) MitoFish and MiFish Pipeline: A mitochondrial genome database of fish with an analysis pipeline for environmental DNA metabarcoding. Molecular Biology and Evolution, 35: 1553.
