@@ -31,7 +31,7 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.13/dist/classifier.jar classify -t /p
 
 ### v3.0.0 North American Reference Set \*\*NEW\*\*
 
-This version was created from the NCBI nucleotide database [accessed March 9, 2023].  This version contains 3,706 reference sequences, 4,007 taxa in total including 1,868 species.  Set was filtered only include sequences at least 500bp+, sequences with no ambiguous bases, and records with Linnean binomial species names.  Non-vertebrate outgroup sequences were added.  Sequences were checked for human and non-vertebrate contaminants.  *This version of the database was filtered include only records from North America.*  For a reference set that includes global species, use v2.0.0.  
+This version was created from the NCBI nucleotide database [accessed March 9, 2023].  This version contains 3,706 reference sequences, 4,007 taxa in total including 1,868 species.  Set was filtered only include sequences at least 500bp+, sequences with no ambiguous bases, and records with Linnean binomial species names.  Non-vertebrate outgroup sequences were added.  Sequences were checked for human and non-vertebrate contaminants.  *This version of the database only includes GenBank records from North America.*  For a reference set that includes global species, use v2.0.0.  
 
 ### v2.0.0
 
