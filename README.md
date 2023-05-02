@@ -33,6 +33,51 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.13/dist/classifier.jar classify -t /p
 
 This version was created from the NCBI nucleotide database [accessed March 9, 2023].  This version contains 3,706 reference sequences, 4,007 taxa in total including 1,868 species.  Set was filtered only include sequences at least 500bp+, sequences with no ambiguous bases, and records with Linnean binomial species names.  Non-vertebrate outgroup sequences were added.  Sequences were checked for human and non-vertebrate contaminants.  *This version of the database only includes GenBank records from North America.*  For a reference set that includes global species, use v2.0.0.  
 
+[Bootstrap support cutoffs will be updated when validation is complete May 2, 2023]
+
+#### Bootstrap support cutoffs, 99% accuracy:
+
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
+--- |:---:|:---:|:---:|:---:|:---:
+Superkingdom |  |  |  | 0 | 
+Kingdom |  |  |  | 0 | 
+Phylum |  |  |  | 0 | 
+Class |  |  |  | 0.3 |  
+Order |  |  |  | 0.4 |  
+Family |  |  |  | 0.6 |  
+Genus |  |  |  | 0.8 |  
+Species  |  |  |  | NA |  
+
+NA = No cutoff available will result in 99% correct assignments
+
+#### Bootstrap support cutoffs, 95% accuracy:
+
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
+--- |:---:|:---:|:---:|:---:|:---:
+Superkingdom |  |  |  | 0 | 
+Kingdom |  |  |  | 0 | 
+Phylum |  |  |  | 0 | 
+Class |  |  |  | 0 |  
+Order |  |  |  | 0 |  
+Family |  |  |  | 0.3 |  
+Genus |  |  |  | 0.3 |  
+Species  |  |  |  | 0.8 | 
+
+NA = No cutoff available will result in 95% correct assignments
+
+#### Bootstrap support cutoffs, 90% accuracy:
+
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
+--- |:---:|:---:|:---:|:---:|:---:
+Superkingdom |  |  |  | 0 | 
+Kingdom |  |  |  | 0 | 
+Phylum |  |  |  | 0 | 
+Class |  |  |  | 0 |  
+Order |  |  |  | 0 |  
+Family |  |  |  | 0 |  
+Genus |  |  |  | 0 |  
+Species  |  |  |  | 0.3 | 
+
 ### v2.0.0
 
 These files are ready to be used with the RDP Classifier.  Created from the NCBI nucleotide database [accessed July 26, 2020].  Added additional 12S sequences from the 12S fish classifier available from https://github.com/terrimporter/12SfishClassifier that includes sequences from MitoFish [March 2020].  This version contains 19,654 reference sequences and 15,007 taxa at all ranks, including 9,564 species.  This version of the classifier is recommended if there is a needed emphasis on fish, otherwise v1.0.0 classification performance is slightly better with lower bootstrap support cutoffs needed to ensure accuracy.
