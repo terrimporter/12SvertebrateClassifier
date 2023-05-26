@@ -33,20 +33,18 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.13/dist/classifier.jar classify -t /p
 
 This version was created from the NCBI nucleotide database [accessed March 9, 2023].  This version contains 3,706 reference sequences, 4,007 taxa in total including 1,868 species.  Set was filtered only include sequences at least 500bp+, sequences with no ambiguous bases, and records with Linnean binomial species names.  Non-vertebrate outgroup sequences were added.  Sequences were checked for human and non-vertebrate contaminants.  *This version of the database only includes GenBank records from North America.*  For a reference set that includes global species, use v2.0.0.  
 
-[Bootstrap support cutoffs will be updated when validation is complete May 2, 2023]
-
 #### Bootstrap support cutoffs, 99% accuracy:
 
 Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
 --- |:---:|:---:|:---:|:---:|:---:
-Superkingdom |  |  |  | 0 | 
-Kingdom |  |  |  | 0 | 
-Phylum |  |  |  | 0 | 
-Class |  |  |  | 0.3 |  
-Order |  |  |  | 0.4 |  
-Family |  |  |  | 0.6 |  
-Genus |  |  |  | 0.8 |  
-Species  |  |  |  | NA |  
+Superkingdom | 0 | 0 | 0 | 0 | 0
+Kingdom | 0 | 0 | 0 | 0 | 0
+Phylum | 0 | 0 | 0 | 0 | 0.2
+Class | 0 | 0 | 0.2 | 0.3 | 0.3 
+Order | 0.3 | 0.4 | 0.4 | 0.4 | 0.4 
+Family | 0.6 | 0.5 | 0.6 | 0.6 | 0.5 
+Genus | 0.9 | 0.9 | 0.9 | 0.8 | 0.9 
+Species  | NA | NA | NA | NA | NA 
 
 NA = No cutoff available will result in 99% correct assignments
 
@@ -54,14 +52,14 @@ NA = No cutoff available will result in 99% correct assignments
 
 Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
 --- |:---:|:---:|:---:|:---:|:---:
-Superkingdom |  |  |  | 0 | 
-Kingdom |  |  |  | 0 | 
-Phylum |  |  |  | 0 | 
-Class |  |  |  | 0 |  
-Order |  |  |  | 0 |  
-Family |  |  |  | 0.3 |  
-Genus |  |  |  | 0.3 |  
-Species  |  |  |  | 0.8 | 
+Superkingdom | 0 | 0 | 0 | 0 | 0
+Kingdom | 0 | 0 | 0 | 0 | 0
+Phylum | 0 | 0 | 0 | 0 | 0
+Class | 0 | 0 | 0 | 0 | 0 
+Order | 0 | 0 | 0 | 0 | 0.2 
+Family | 0 | 0 | 0.1 | 0.3 | 0.2 
+Genus | 0.1 | 0.2 | 0.4 | 0.3 | 0.4 
+Species  | 0.8 | 0.8 | 0.8 | 0.8 | 0.9
 
 NA = No cutoff available will result in 95% correct assignments
 
@@ -69,14 +67,14 @@ NA = No cutoff available will result in 95% correct assignments
 
 Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
 --- |:---:|:---:|:---:|:---:|:---:
-Superkingdom |  |  |  | 0 | 
-Kingdom |  |  |  | 0 | 
-Phylum |  |  |  | 0 | 
-Class |  |  |  | 0 |  
-Order |  |  |  | 0 |  
-Family |  |  |  | 0 |  
-Genus |  |  |  | 0 |  
-Species  |  |  |  | 0.3 | 
+Superkingdom | 0 | 0 | 0 | 0 | 0
+Kingdom | 0 | 0 | 0 | 0 | 0
+Phylum | 0 | 0 | 0 | 0 | 0
+Class | 0 | 0 | 0 | 0 | 0 
+Order | 0 | 0 | 0 | 0 | 0 
+Family | 0 | 0 | 0 | 0 | 0 
+Genus | 0 | 0 | 0 | 0 | 0.1 
+Species  | 0 | 0 | 0.2 | 0.3 | 0.4
 
 ### v2.0.0
 
@@ -192,4 +190,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: May 2, 2023
+Last updated: May 26, 2023
